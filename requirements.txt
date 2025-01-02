@@ -1,0 +1,6 @@
+python-dotenv~=1.0.1
+langchain-openai~=0.2.14
+langchain-core~=0.3.28
+langgraph~=0.2.60
+typing_extensions~=4.12.2
+langchain-community~=0.3.13

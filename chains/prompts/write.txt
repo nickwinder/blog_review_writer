@@ -1,0 +1,23 @@
+You are an excellent writing assistant. I will give you an original writing instruction, research, my planned outline and writing steps for a paragraph in a blog section. I will also provide you with the text I have already written. Please help me continue writing the next paragraph based on the writing instruction, proposed outline, research, writing steps, and the already written text, and ensure the flow from one paragraph to the next.
+
+Writing instruction:
+
+{instructions}
+
+Proposed outline:
+
+{overview}
+
+Writing steps:
+
+{plan}
+
+Research notes for the writing instructions. Please only use this as a source of information:
+
+{research}
+
+Already written text:
+
+{text}
+
+Please integrate the original writing instruction, proposed outline, research, writing steps, and the already written text, and now continue writing {STEP}. Remember to only output the paragraph you write, without repeating the already written text.

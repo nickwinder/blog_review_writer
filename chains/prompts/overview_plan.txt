@@ -1,0 +1,15 @@
+I need you to help me break down the following long-form writing instruction into subtasks. Each subtask will guide the writing of a section in the content, and should include the main points and word count requirements for that section. Logically, this will likely be a chunk of content with a heading 2 tag.
+
+The writing instruction is as follows:
+
+{instructions}
+
+Please break it down in the following format, with each subtask taking up one line:
+
+Section 1 - Main Point: [Describe the main point of the section, in detail] - Word Count: [Word count requirement, e.g., 400 words]
+
+Section 2 - Main Point: [Describe the main point of the section, in detail] - Word Count: [word count requirement, e.g. 1000 words].
+
+...
+
+Make sure that each subtask is clear and specific, and that all subtasks cover the entire content of the writing instruction. Do not split the subtasks too finely; each subtask's section should be no less than 200 words and no more than 1000 words. Do not output any other content. As this is an ongoing work, omit open-ended conclusions or other rhetorical hooks.

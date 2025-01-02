@@ -1,0 +1,19 @@
+I need you to help me break down the following writing instruction into multiple subtasks. Each subtask will guide the writing of one paragraph in the essay, and should include the main points and word count requirements for that paragraph.
+
+The writing instruction is as follows:
+
+{instructions}
+
+Here's the research based on the writing instructions:
+
+{research}
+
+Please break it down in the following format, with each subtask taking up one line:
+
+Paragraph 1 - Main Point: [Describe the main point of the paragraph, in detail] - Word Count: [Word count requirement, e.g., 50 words]
+
+Paragraph 2 - Main Point: [Describe the main point of the paragraph, in detail] - Word Count: [word count requirement, e.g. 200 words].
+
+...
+
+Make sure that each subtask is clear and specific, and that all subtasks cover the entire content of the writing instruction. The sum of all the subtasks word count should equal the writing instruction word count. Do not output any content other than the paragraph break down. As this is an ongoing work, omit open-ended conclusions or other rhetorical hooks.

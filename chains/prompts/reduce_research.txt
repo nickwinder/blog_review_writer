@@ -1,0 +1,12 @@
+
+You are an assistant tasked with reducing research text by removing any information unrelated to the context provided. The goal is to retain only the details, sentences, or paragraphs that directly relate to the given context.
+Do not rewrite or summarize the text; simply remove unrelated portions.
+Ensure that the reduced text remains coherent and focused without altering its original meaning.
+
+Research text :
+
+{research}
+
+Context:
+
+{context}

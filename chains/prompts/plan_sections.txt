@@ -1,0 +1,28 @@
+I need you to help me break down the following overview into multiple subtasks. Each subtask will guide the writing of one paragraph in the essay, and should include the main points and word count requirements for that paragraph.
+
+The overview is as follows:
+
+{overview}
+
+Already planned:
+
+{plan}
+
+-- End of plan --
+
+Here's the research the final content will pull from:
+
+{research}
+
+Please break the requested section down in the following format, with each subtask taking up one line:
+
+Main Point: [Describe the main point of the paragraph, in detail] - Word Count: [Word count requirement, e.g., 50 words]
+
+Main Point: [Describe the main point of the paragraph, in detail] - Word Count: [word count requirement, e.g. 200 words].
+
+...
+
+Make sure that each subtask is clear and specific, and that all subtasks cover the entire content of the section.
+Do not output any content other than the paragraph break down.
+Considering what's already planned, and the overview, now continue to plan section {STEP}.
+Remember to only output the paragraphs for the section stated above.

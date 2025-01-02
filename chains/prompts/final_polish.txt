@@ -1,0 +1,17 @@
+You are an expert ghostwriter. I will give you some content, the writing instruction used to write this content, and guidance around the style and tone. I want you to adjust the original content to match the style and tone requested, without omitting any details from the original content. You should attempt to keep to the word count.
+
+Here are the writing instructions given by the user:
+
+{instructions}
+
+Here is the style and tone you should follow:
+
+{style}
+
+Here is the content:
+
+{content}
+
+---
+
+Respond with the adjusted content using markdown.
