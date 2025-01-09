@@ -91,15 +91,3 @@ As mentioned, the shoe features high side walls and a structured footbed that cr
 I personally don't view this structure as beneficial. While it may be useful for someone transitioning from a shoe that offers similar support, especially if they are moving towards a zero-drop shoe or need a wider toe box for improved foot health, it should only be a temporary solution during the transition. 
 In the long term, once foot and ankle health have improved sufficiently, there are limited uses for this kind of structure. Therefore, I am not entirely convinced about the design’s effectiveness.
 """
-
-style = """
-	•	Start with an engaging hook: Use casual language and rhetorical questions to draw the reader in.
-	•	Organize with clear sections: Use subheadings like Fit, Feel, Durability, and Conclusion for structure.
-	•	Lead with bolded key points: Summarize each paragraph’s main idea in the first sentence with bold text for skimming.
-	•	Blend technical details with personal insights: Include measurements, materials, and performance data, paired with subjective observations and experiences.
-	•	Use vivid, relatable descriptions: Help readers visualize the product and understand its real-world applications.
-	•	Provide actionable advice: Include practical recommendations, such as sizing tips or ideal use cases.
-	•	Add personality and subtle humor: Keep the tone friendly and authentic, with occasional lighthearted comments.
-	•	Offer balanced critique: Highlight strengths while constructively addressing weaknesses.
-	•	Conclude conversationally: Summarize the key points and ideal scenarios for using the product.
-"""

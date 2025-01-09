@@ -17,7 +17,7 @@ load_dotenv()
 gpt4oMini = ChatOpenAI(model="gpt-4o-mini", temperature=0)
 
 gpt4o = ChatOpenAI(model="gpt-4o", temperature=0)
-gpt4oWriter = ChatOpenAI(model="gpt-4o", temperature=0.7)
+gpt4oWriter = ChatOpenAI(model="gpt-4o", temperature=0.6)
 
 # LLM = ChatGoogleGenerativeAI(
 #     model="gemini-1.5-flash-exp-0827",

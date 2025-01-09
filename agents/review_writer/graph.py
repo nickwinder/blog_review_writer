@@ -10,17 +10,7 @@ from nodes.final_polish_node import final_polish_node
 
 
 class GraphState(TypedDict):
-    """
-    Represents the state of our graph.
-
-    Attributes:
-        initial_prompt: initial prompt
-        plan: plan
-        num_steps: number of steps
-        post_name: name of the LLM
-        word_count: word count of the final document
-    """
-    initial_prompt : str
+    subject : str
     overview : str
     plan : str
     num_steps : int
@@ -31,6 +21,7 @@ class GraphState(TypedDict):
     post_name : str
     research : str
     style: str
+    structure: str
 
 
 

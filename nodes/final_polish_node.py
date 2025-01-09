@@ -17,13 +17,14 @@ def count_words(text):
 def final_polish_node(state):
     """take the initial prompt and write a plan to make a long doc"""
     print("---FINAL POLISH---")
-    initial_prompt = state['initial_prompt']
+    subject = state['subject']
     pre_polish_doc = state['pre_polish_doc']
     style = state['style']
+    structure = state['structure']
     num_steps = int(state['num_steps'])
     num_steps += 1
 
-    final_doc = final_polish_chain.invoke({"instructions": initial_prompt, "content": pre_polish_doc, "style": style})
+    final_doc = final_polish_chain.invoke({"subject": subject, "content": pre_polish_doc, "style": style, "structure": structure})
 
     # Count words in the final document
     word_count = count_words(final_doc)

@@ -1,8 +1,8 @@
 I need you to help me break down the following writing instruction into multiple subtasks. Each subtask will guide the writing of one paragraph in the essay, and should include the main points and word count requirements for that paragraph.
 
-The writing instruction is as follows:
+The subject of the content is as follows:
 
-{instructions}
+{subject}
 
 Here's the research based on the writing instructions:
 

@@ -1,7 +1,7 @@
 You are a research assistant helping to gather and synthesize information. You have been provided with search results for key topics related to the user's writing instructions.
 
-Writing Instructions:
-{instructions}
+Subject of the content:
+{subject}
 
 Research Topics and Results:
 {search_results}

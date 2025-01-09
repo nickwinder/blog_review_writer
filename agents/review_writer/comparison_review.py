@@ -5,7 +5,7 @@ shoe_name_2 = "Altra Timp 5"
 
 post_name = shoe_name_1.replace(" ", "_") + "_vs_" + shoe_name_2.replace(" ", "_")
 
-input_prompt = ("Write a 1500 word comprehensive comparison review between the " + shoe_name_1 + " and " + shoe_name_2 +" with casual humanlike style, using transitional phrases, and avoidance of unnatural sentence structure while explaining in details extensively and comprehensively.\n"
+subject = ("Write a 1500 word comprehensive comparison review between the " + shoe_name_1 + " and " + shoe_name_2 +" with casual humanlike style, using transitional phrases, and avoidance of unnatural sentence structure while explaining in details extensively and comprehensively.\n"
                     "The comparison review should have 5 major sections: Introduction, Fit, Feel, Durability, and Conclusion.\n"
                     "Introduction - Should be short containing 5-6 sentences, each on separate lines teasing some comparison information between the models, and enticing the reader to keep reading.\n"
                     "Fit - A section of around 500 words with multiple paragraphs each focusing on different aspects of the shoes and how they differ and where they compare. Ensure you cover the suggested sizing (for example true to size, or 1/2 size up or down), the width in different areas of the shoe, and depth in different areas of the shoe. Each paragraph should be 2-3 sentences, and the first sentence of each paragraph should be bolded to allow the section to be skimmable by the reader.\n"
@@ -56,16 +56,4 @@ The Timp 5 demonstrates marked improvements over the Timp 4 in durability. The V
 
 #### Conclusion  
 The Altra Timp 5 is a standout ultra-distance trail shoe, offering improved durability and traction compared to its predecessor. While it sacrifices flexibility and natural foot engagement, it excels as a stable, protective option for rocky and technical terrain. Its lightweight design (278g for a men’s US 9) and Vibram outsole make it a solid race-day choice, though it is less suitable for daily training. Minimal runners may need to adjust to the firmer, conventional feel but could still enjoy the shoe’s performance in ultra-distance races or rugged environments. For the best results, balance use with foot-strengthening exercises and barefoot walking to maintain foot health.
-"""
-
-style = """
-	•	Start with an engaging hook: Use casual language and rhetorical questions to draw the reader in.
-	•	Organize with clear sections: Use subheadings like Fit, Feel, Durability, and Conclusion for structure.
-	•	Lead with bolded key points: Summarize each paragraph’s main idea in the first sentence with bold text for skimming.
-	•	Blend technical details with personal insights: Include measurements, materials, and performance data, paired with subjective observations and experiences.
-	•	Use vivid, relatable descriptions: Help readers visualize the product and understand its real-world applications.
-	•	Provide actionable advice: Include practical recommendations, such as sizing tips or ideal use cases.
-	•	Add personality and subtle humor: Keep the tone friendly and authentic, with occasional lighthearted comments.
-	•	Offer balanced critique: Highlight strengths while constructively addressing weaknesses.
-	•	Conclude conversationally: Summarize the key points and ideal scenarios for using the product.
 """

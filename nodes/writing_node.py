@@ -18,7 +18,7 @@ def count_words(text):
 def writing_node(state):
     """take the initial prompt and write a plan to make a long doc"""
     print("---WRITING THE DOC---")
-    initial_instruction = state['initial_prompt']
+    subject = state['subject']
     research = state['research']
     overview = state['overview']
     plan = state['plan']
@@ -36,7 +36,7 @@ def writing_node(state):
     for idx,step in enumerate(planning_steps):
         # Invoke the write_chain
         result = write_chain.invoke({
-            "instructions": initial_instruction,
+            "subject": subject,
             "overview": overview,
             "research": research,
             "plan": plan,
